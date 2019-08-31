@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Bingbing Li Blog</title>
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="/css/default.css" type="text/css" />
+  <link rel="stylesheet" href="/css/desktop.css" type="text/css" />
+  <link rel="stylesheet" href="/css/mobile.css" type="text/css" />
+  <link rel="shortcut icon" href="/css/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/css/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+  <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/atom.xml" />
+  <script src="/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="/js/jquery-migrate-1.2.1.js" type="text/javascript"></script>
+  <script src="/js/jquery.transit.min.js" type="text/javascript"></script>
+  <script src="/js/common.js" type="text/javascript"></script>
+
+<body>
+  <?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+   <title>Bingbing Li Blog</title>
+   <link href="http://bing0037.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+   <link href="http://bing0037.github.io" rel="alternate" type="text/html" />
+   <updated>2019-08-31T18:28:49+08:00</updated>
+   <id>http://bing0037.github.io</id>
+   <author>
+     <name></name>
+     <email></email>
+   </author>
+
+   
+   <entry>
+     <title>Deep Reinforcement Learning (DRL) for UAV Control in Gazebo Simulation Environment</title>
+     <link href="/DRL_UAV"/>
+     <updated>2018-09-12T00:00:00+08:00</updated>
+     <id>/DRL_UAV</id>
+     <content type="html">&lt;h2 id=&quot;system-introduction&quot;&gt;1 System Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Deep Q-Network (DQN)&lt;/strong&gt; is utilized for UAV altitude control(hovering) and Gazebo is used as the dynamic simulator to interact with the drone.&lt;/p&gt;
+
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/PX4-Gazebo-Simulation&quot;&gt;PX4-Gazebo-Simulation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/DRL_UAV_project_mission.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;images/Gazebo_1.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;images/Gazebo_2.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;our-intention&quot;&gt;2 Our Intention&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Proportional-integral-derivative (PID) controllers are used as low-lever controllers&lt;/strong&gt; to achieve desired thrust and three desired Eular angles, and &lt;strong&gt;DQN is used for position control&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://px4.io/&quot;&gt;PX4&lt;/a&gt; is an open-source autopilot and is widly used for drones.
+&lt;img src=&quot;images/pixhawk.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;images/PX4_controller_structure.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;images/DRL_UAV.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;other-requirements-ros-and-mavros&quot;&gt;3 Other requirements: ROS and MAVROS&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;images/ROS_MAVROS.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;images/ROS.JPG&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;images/MAVROS.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;project-overview&quot;&gt;4 Project Overview&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;images/DRL_UAV_project_overview.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;constraints-and-reward&quot;&gt;5 Constraints and Reward&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;images/DRL_UAV_detail.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;videos&quot;&gt;6 Videos&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/9zLjYLtHdPQ&quot;&gt;Manual control&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/zbejm5uHPt8&quot;&gt;Training&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;to-be-continued&quot;&gt;7 To Be Continued!&lt;/h2&gt;
+</content>
+   </entry>
+   
+   <entry>
+     <title>A Keras Implementation of YOLOv3 for Object Detection</title>
+     <link href="/keras_yolov3"/>
+     <updated>2018-08-30T00:00:00+08:00</updated>
+     <id>/keras_yolov3</id>
+     <content type="html">&lt;h2 id=&quot;introduction&quot;&gt;1 Introduction&lt;/h2&gt;
+&lt;p&gt;A keras implementation of YOLOv3 (Tensorflow backend) for object detection (ref: &lt;a href=&quot;https://github.com/qqwweee/keras-yolo3&quot;&gt;qqwweee/keras-yolo3&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;github: &lt;a href=&quot;https://github.com/bing0037/keras-yolo3&quot;&gt;bing0037/keras-yolo3&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;original-yolo-model-for-general-object-detection&quot;&gt;2 Original yolo model for general object detection&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/original_yolov3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;retrained-model-for-raccoon-detection&quot;&gt;3 Retrained model for raccoon detection&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/yolov3_raccoon_detection.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;retrained-model-for-pedestrian-detection&quot;&gt;4 Retrained model for pedestrian detection&lt;/h2&gt;
+
+&lt;p&gt;Result: &lt;a href=&quot;https://youtu.be/yxeetjk22K0&quot;&gt;Youtube&lt;/a&gt;&lt;/p&gt;
+</content>
+   </entry>
+   
+   <entry>
+     <title>Smart Cane for Assistive Navigation (SCAN) to Help Blind Persons</title>
+     <link href="/SCAN"/>
+     <updated>2018-06-15T00:00:00+08:00</updated>
+     <id>/SCAN</id>
+     <content type="html">&lt;h2 id=&quot;system-introduction&quot;&gt;1 System Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Smart Cane for Assistive Navigation (SCAN)&lt;/code&gt; is designed by &lt;a href=&quot;https://ccny-ros-pkg.github.io/&quot;&gt;CCNY Robotics Lab&lt;/a&gt; to provide indoor assistive navigation for the Blind &amp;amp; Visually Impaired (BVI).&lt;/p&gt;
+
+&lt;p&gt;Indoor assistive navigation system has been researched extensively in recent years with the fast evolution of mobile technologies, from applying robotics simultaneous localization and mapping (SLAM) approach, deploying infrastructure sensors to integrating semantic environment description.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SCAN&lt;/code&gt; software is designed to provide the environment spatial context-aware information and guidance suggestions.
+&lt;img src=&quot;images/ISANA_system_structure.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition, a &lt;code class=&quot;highlighter-rouge&quot;&gt;TinyYOLO&lt;/code&gt; (You-only-look-once) convolutional neural network (CNN) model is applied for real-time moving person detection.&lt;/p&gt;
+
+&lt;h2 id=&quot;hardware-and-software-support&quot;&gt;2 Hardware and Software Support&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SCAN&lt;/code&gt; software runs on the LENOVO Phab-2 Pro, the first &lt;code class=&quot;highlighter-rouge&quot;&gt;Tango-enabled smartphone&lt;/code&gt;. The sensors embedded in the Tango-enabled smartphone include: an RGB-D camera providing both image and depth information, a wide-angle fisheye camera for motion tracking, a IMU for visual-inertial odometry augmentation, microphone and audio output for sonic and verbal feedback.
+&lt;img src=&quot;images/AssistiveNav.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Google Tango&lt;/code&gt;’s &lt;code class=&quot;highlighter-rouge&quot;&gt;visual position service (VPS)&lt;/code&gt; supports visual odometry and area description file (ADF) for loop-closure in SLAM. The ADF stores the visual key-frame features that are used for the feature matching. The loop-closure provides re-localization capability to correct drift errors accumulated from visual odometry. Tango explorer and Tango Area Manager are tools to access ADF.
+&lt;img src=&quot;images/Tango_Explorer.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;functions-of-scan&quot;&gt;3 Functions of SCAN&lt;/h2&gt;
+
+&lt;h3 id=&quot;online-alignment&quot;&gt;Online-alignment&lt;/h3&gt;
+&lt;p&gt;To align semantic map with ADF, we need set the scaling and offset parameters using online alignment.&lt;/p&gt;
+
+&lt;h3 id=&quot;high-level-semantic-localization-and-navigation&quot;&gt;High-level Semantic Localization and navigation&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;images/ISANA_navigation.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;detection&quot;&gt;Detection&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;images/ISANA_face_detection.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;images/ISANA_face_detection2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;auxiliary-equipment-smartcane-to-select-the-destination&quot;&gt;4 Auxiliary Equipment: SmartCane to Select the Destination&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;images/smartcane_selection.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;5 Video&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/xi0dbnjKN7c&quot;&gt;Youtube&lt;/a&gt;&lt;/p&gt;
+</content>
+   </entry>
+   
+   <entry>
+     <title>Powered Parafoil Unmanned Aerial Vehicle (PPUAV) Project</title>
+     <link href="/PPUAV"/>
+     <updated>2017-12-15T00:00:00+08:00</updated>
+     <id>/PPUAV</id>
+     <content type="html">&lt;h2 id=&quot;system-introduction&quot;&gt;1 System Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Powered Parafoil Unmanned Aerial Vehicle (PPUAV)&lt;/code&gt; is a small aircraft, which is able to cover large horizontal distances from the release point. It provides a unique capability for air-transport of heave payloads according to the high payload-weight-ratio.
+&lt;img src=&quot;images/PPUAV_Intro.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;PPUAV&lt;/code&gt; consists of parafoil canopy, payload, suspension lines and GN&amp;amp;C system. For the parafoil, deployment of the right (or left) brake causes a significant drag rise and a small lift rise on the right (or left) side of the canopy. And the above effects cause PPUAV to turn right with slight roll movement when a right (or left) brake is deployed. With an engine installed on the back of the payload, PPUAV can adjust its forward and vertical velocities.
+&lt;img src=&quot;images/PPUAV_Structure.png&quot; alt=&quot;drawing&quot; width=&quot;500px&quot; /&gt;
+&lt;img src=&quot;images/control_mechanism.PNG&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;images/PPUAV_platform.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;px4-firmware-for-ppuav&quot;&gt;2 PX4 Firmware for PPUAV&lt;/h2&gt;
+&lt;p&gt;Project link: &lt;a href=&quot;https://github.com/SIA-PPG&quot;&gt;https://github.com/SIA-PPG&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;PPUAV is not supported officially by PX4, so customized &lt;a href=&quot;https://dev.px4.io/en/concept/mixing.html&quot;&gt;Mixer&lt;/a&gt; for PPUAV is needed.
+&lt;img src=&quot;images/PX4_Mixer.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/SIA-PPG/PX4_PPG/blob/ppg_controller/ROMFS/px4fmu_common/mixers/hexa_x.main.mix&quot;&gt;PPUAV mixer&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;controller-energy-based-controller&quot;&gt;3 Controller: Energy-based Controller&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;images/energy-based_controller.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;additional-sensors-for-environment-monitoring&quot;&gt;4 Additional Sensors for Environment Monitoring&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;images/sensors.png&quot; alt=&quot;drawing&quot; width=&quot;500px&quot; /&gt;
+&lt;img src=&quot;images/sensors_outputs.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;5 Video&lt;/h2&gt;
+&lt;p&gt;flight test: &lt;a href=&quot;https://youtu.be/j9KC4hOyxOY&quot;&gt;Youtube&lt;/a&gt;&lt;/p&gt;
+</content>
+   </entry>
+   
+   <entry>
+     <title>4th International UAV Innovation Grand Prix</title>
+     <link href="/4th-compitition"/>
+     <updated>2016-11-05T00:00:00+08:00</updated>
+     <id>/4th-compitition</id>
+     <content type="html">&lt;h2 id=&quot;competition-description&quot;&gt;1 Competition Description&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.uavgp.com.cn/En/&quot;&gt;4th International Unmanned Aerial Vehicle(UAV) Innovation Grand Prix (UAVGP)&lt;/a&gt; was sponsored by &lt;a href=&quot;http://www.goertek.com/en/index.html&quot;&gt;Goertek Inc.&lt;/a&gt; and &lt;a href=&quot;http://www.avic.com/en/index.shtml&quot;&gt;Aviation
+Industry Corporation of China (AVIC)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Github&lt;/strong&gt;: &lt;a href=&quot;https://github.com/SIA-UAVGP&quot;&gt;SIA-UAVGP&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In &lt;strong&gt;rotary-wing UAV(JX) group&lt;/strong&gt;, the competition is designed as a “&lt;strong&gt;Precision Agriculture&lt;/strong&gt;” 
+scenario –– Fruit trees in a farm are suffering from pests and disease, and the various pests have different resistances against particular pesticides. Agriculture and
+forestry experts will send rotary-wing UAVs to successfully eradicate all the pests by screening
+for effective pesticide type and spraying targeted pests.
+&lt;img src=&quot;images/uavgp2016_rule.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;images/uavgp2016.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;“Precision Agriculture” examines precise and efficient operation of a rotary-wing UAV in
+autonomous takeoff and landing, obstruction avoidance, crop disaster identification, automatic
+program operation, pesticide replenishment and spray.&lt;/p&gt;
+
+&lt;h2 id=&quot;system-structure&quot;&gt;2 System Structure&lt;/h2&gt;
+&lt;p&gt;The drone, called &lt;code class=&quot;highlighter-rouge&quot;&gt;SIA Sparrowhawk&lt;/code&gt;, is created using &lt;a href=&quot;https://www.dji.com/spreading-wings-s1000&quot;&gt;DJI Spreading Wings S1000+ Octocopter&lt;/a&gt; as the basic platform, &lt;a href=&quot;http://pixhawk.org/&quot;&gt;pixhawk&lt;/a&gt; as the controller of the drone and &lt;a href=&quot;https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html&quot;&gt;Intel NUC&lt;/a&gt; as the companion computer to deal with Computer Vision problems and send position and velocity commands.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://dev.px4.io/en/ros/mavros_installation.html&quot;&gt;MAVROS&lt;/a&gt; package enables MAVLink extendable communication between the companion computer (&lt;strong&gt;Intel NUC&lt;/strong&gt;) running ROS and MAVLink enabled autopilots (&lt;strong&gt;pixhawk&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/uavgp2016_system_structure_hardware.PNG&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;images/uavgp2016_system_structure_software.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;px4-controller-structure&quot;&gt;3 PX4 Controller Structure&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;images/uavgp2016_PX4_structure.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/uavgp2016_Project_structure.PNG.PNG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;competition-result&quot;&gt;4 Competition Result&lt;/h2&gt;
+&lt;p&gt;My group won the &lt;strong&gt;first prize&lt;/strong&gt;.
+&lt;img src=&quot;images/uavgp2016_score.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;videos&quot;&gt;5 Videos&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://v.youku.com/v_show/id_XMzIwNzgyNTU4NA==.html?spm=a2h3j.8428770.3416059.1#paction&quot;&gt;Preliminary&lt;/a&gt;&lt;/p&gt;
+&lt;embed src=&quot;http://player.youku.com/player.php/sid/XMzIwNzgyNTU4NA==/v.swf&quot; quality=&quot;low&quot; width=&quot;498&quot; height=&quot;510&quot; align=&quot;middle&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; mode=&quot;transparent&quot; type=&quot;application/x-shockwave-flash&quot; /&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://v.youku.com/v_show/id_XMzIwNzgzODQ5Mg==.html?spm=a2h3j.8428770.3416059.1&quot;&gt;Final&lt;/a&gt;&lt;/p&gt;
+&lt;embed src=&quot;http://player.youku.com/player.php/sid/XMzIwNzgzODQ5Mg==/v.swf&quot; quality=&quot;low&quot; width=&quot;498&quot; height=&quot;510&quot; align=&quot;middle&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; mode=&quot;transparent&quot; type=&quot;application/x-shockwave-flash&quot; /&gt;
+
+</content>
+   </entry>
+   
+   <entry>
+     <title>3rd International UAV Innovation Grand Prix</title>
+     <link href="/3rd-compitition"/>
+     <updated>2015-11-03T00:00:00+08:00</updated>
+     <id>/3rd-compitition</id>
+     <content type="html">&lt;h2 id=&quot;competition-description&quot;&gt;Competition description&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.uavgp.com.cn/En/&quot;&gt;3rd International Unmanned Aerial Vehicle(UAV) Innovation Grand Prix (UAVGP)&lt;/a&gt; was sponsored by &lt;a href=&quot;http://www.avic.com/en/index.shtml&quot;&gt;Aviation
+Industry Corporation of China (AVIC)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In rotary-wing UAV(JX) group, an autonomous barrel
+transportation mission was proposed for Rotary-wing UAV
+(RUAV) which aims at validating the feasibility of vertical
+replenishment by UAV.&lt;/p&gt;
+
+&lt;p&gt;The RUAV was required to autonomously takeoff, track the barrels on the supplier platform, pick-up the
+barrels, stack the barrels on the replenishment platform and
+then land at the same place where it took off. The supplier
+and replenish platform were in uniform motion with a speed
+under 2m/s, the weight of the barrels was between 1.5kg to
+2kg and a total of four barrels were required to be picked up
+and stacked. The barrels should be stacked in a circle on the
+replenishment platform with the diameter being 0.5m, and
+the diameter of the barrel was 0.266m. A stacking accuracy
+should be under 0.15m to obtain the full mission score. The
+final score was determined based on the mission completion
+time and the stacking accuracy. A mission completion time
+under 200 seconds was supposed to be perfect.
+&lt;img src=&quot;images/uavgp2015_rule.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Firstly, the unmanned aerial vehicle (UAV) is required to identify circle targets and the black and white id
+marker near the circle on one moving platform, then the UAV chosen a target bucket, tracked and transported it to the other
+moving platform, until all 4 buckets are transported from one moving platform to the other.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/live_show.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My group won the &lt;strong&gt;second prize&lt;/strong&gt;.
+&lt;img src=&quot;images/uavgp2015_prize.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://v.youku.com/v_show/id_XMzIxMTk4ODQ3Mg==.html?spm=a2h3j.8428770.3416059.1#paction&quot;&gt;Final&lt;/a&gt;&lt;/p&gt;
+&lt;embed src=&quot;http://player.youku.com/player.php/sid/XMzIxMTk4ODQ3Mg==/v.swf&quot; quality=&quot;low&quot; width=&quot;498&quot; height=&quot;510&quot; align=&quot;middle&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; mode=&quot;transparent&quot; type=&quot;application/x-shockwave-flash&quot; /&gt;
+
+</content>
+   </entry>
+   
+   <entry>
+     <title>My first blog(for test)!</title>
+     <link href="/my-first-blog"/>
+     <updated>2015-05-27T00:00:00+08:00</updated>
+     <id>/my-first-blog</id>
+     <content type="html">&lt;h2 id=&quot;markdown-test&quot;&gt;Markdown Test&lt;/h2&gt;
+
+&lt;h2 id=&quot;music-test&quot;&gt;Music Test&lt;/h2&gt;
+
+&lt;h3 id=&quot;music-test-success-&quot;&gt;Music Test (Success １)&lt;/h3&gt;
+&lt;embed src=&quot;http://music.163.com/style/swf/widget.swf?sid=4940920&amp;amp;type=2&amp;amp;auto=1&amp;amp;width=320&amp;amp;height=66&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;340&quot; height=&quot;86&quot; wmode=&quot;transparent&quot; /&gt;
+
+&lt;h3 id=&quot;music-test-success-2&quot;&gt;Music Test (Success 2)&lt;/h3&gt;
+&lt;embed src=&quot;//music.163.com/style/swf/widget.swf?sid=4940920&amp;amp;type=2&amp;amp;auto=1&amp;amp;width=320&amp;amp;height=66&quot; width=&quot;340&quot; height=&quot;86&quot; allownetworking=&quot;all&quot; /&gt;
+
+&lt;h3 id=&quot;music-test-failure-1&quot;&gt;Music Test (Failure 1)&lt;/h3&gt;
+&lt;audio src=&quot;http://music.163.com/style/swf/widget.swf?sid=4940920&amp;amp;type=2&amp;amp;auto=1&amp;amp;width=320&amp;amp;height=66&quot; controls=&quot;controls&quot;&gt;
+Your browser does not support the audio tag.
+&lt;/audio&gt;
+
+&lt;h3 id=&quot;music-test-failure-2&quot;&gt;Music Test (Failure 2)&lt;/h3&gt;
+&lt;p&gt;&amp;lt;iframe frameborder=”no” border=”0” marginwidth=”0” marginheight=”0” width=330 height=86 src=”//music.163.com/outchain/player?type=2&amp;amp;id=4940920&amp;amp;auto=1&amp;amp;height=66”&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;picture-test&quot;&gt;Picture Test&lt;/h2&gt;
+
+&lt;h3 id=&quot;picture-testsuccess-&quot;&gt;Picture Test(Success １)&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?h=350&amp;amp;auto=compress&amp;amp;cs=tinysrgb.jpg&quot; alt=&quot;美女&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;picture-testwithout-alt-success-&quot;&gt;Picture Test(Without alt, Success ２)&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;http://p3.music.126.net/b_aD9xvvxhxEumcdQ3Bg2A==/3389794351671325.jpg&quot; /&gt;
+&lt;img src=&quot;http://p3.music.126.net/b_aD9xvvxhxEumcdQ3Bg2A==/3389794351671325.jpg&quot; /&gt;　图片可通过查看网页源代码找到！&lt;/p&gt;
+
+&lt;h3 id=&quot;picture-testsuccess-3&quot;&gt;Picture Test(Success 3)&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;http://p3.music.126.net/b_aD9xvvxhxEumcdQ3Bg2A==/3389794351671325.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;video-test&quot;&gt;Video Test&lt;/h2&gt;
+
+&lt;h3 id=&quot;video-template&quot;&gt;Video Template&lt;/h3&gt;
+
+&lt;!-- &lt;a href=&quot;https://youtu.be/vjmFzEP1qZw?t=34&quot; rel=&quot;some text&quot;&gt;&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://i.imgur.com/v606VZX.jpg&quot; height=&quot;300&quot;&gt;&lt;/p&gt;&lt;/a&gt; --&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/vjmFzEP1qZw?t=34&quot; rel=&quot;some text&quot;&gt;&lt;img src=&quot;https://i.imgur.com/v606VZX.jpg&quot; height=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;video-testsuccess-1&quot;&gt;Video Test(Success 1)&lt;/h3&gt;
+
+&lt;video width=&quot;480&quot; height=&quot;320&quot; controls=&quot;&quot;&gt;
+&lt;source src=&quot;http://media.w3.org/2010/05/sintel/trailer.mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;h3 id=&quot;video-testsuccess-2&quot;&gt;Video Test(Success 2)&lt;/h3&gt;
+
+&lt;embed src=&quot;http://player.youku.com/player.php/Type/Folder/Fid/27690810/Ob/1/sid/XMTY1MTI3NjMyNA==/v.swf&quot; quality=&quot;low&quot; width=&quot;480&quot; height=&quot;400&quot; align=&quot;middle&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; mode=&quot;transparent&quot; type=&quot;application/x-shockwave-flash&quot; /&gt;
+
+&lt;h3 id=&quot;video-testunable-to-control-the-video-size-success-3&quot;&gt;Video Test(Unable to control the video size Success 3)&lt;/h3&gt;
+&lt;video id=&quot;video&quot; controls=&quot;&quot; preload=&quot;none&quot; poster=&quot;http://media.w3.org/2010/05/sintel/poster.png&quot;&gt;　height= 300 width= 100%
+      &lt;source id=&quot;mp4&quot; src=&quot;http://media.w3.org/2010/05/sintel/trailer.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+      &lt;source id=&quot;webm&quot; src=&quot;http://media.w3.org/2010/05/sintel/trailer.webm&quot; type=&quot;video/webm&quot; /&gt;
+      &lt;source id=&quot;ogv&quot; src=&quot;http://media.w3.org/2010/05/sintel/trailer.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+      &lt;p&gt;Your user agent does not support the HTML5 Video element.&lt;/p&gt;
+    &lt;/video&gt;
+
+&lt;h3 id=&quot;video-testfailure-1&quot;&gt;Video Test(Failure 1)&lt;/h3&gt;
+&lt;p&gt;&amp;lt;iframe height= 300 width= 100% src=”http://www.bilibili.com/video/av2993071/” frameborder=0 allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;video-testfailure-2&quot;&gt;Video Test(Failure 2)&lt;/h3&gt;
+&lt;p&gt;Idina Menze和Caleb Hyles激情对唱Let It Go：&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;iframe height=498 width=510 src=”http://player.youku.com/embed/XNjcyMDU4Njg0” frameborder=0 allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;video-testfailure-3&quot;&gt;Video Test(Failure 3)&lt;/h3&gt;
+&lt;p&gt;&amp;lt;iframe height=498 width=510 src=”//s3.music.126.net/sep/s/2/core.js?2c223187860aac2812fd9071f847a2e5” frameborder=0 allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;video-testfailure-4&quot;&gt;Video Test(Failure 4)&lt;/h3&gt;
+&lt;video src=&quot;//s3.music.126.net/sep/s/2/core.js?2c223187860aac2812fd9071f847a2e5&quot; width=&quot;320&quot; height=&quot;240&quot; controls=&quot;controls&quot;&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;h3 id=&quot;video-testfailure-5&quot;&gt;Video Test(Failure 5)&lt;/h3&gt;
+
+&lt;p&gt;&amp;lt;iframe height=498 width=510 src=”http://player.youku.com/embed/XMTY1MTI3NjMyNA==” frameborder=0 allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;video-testfailure-6&quot;&gt;Video Test(Failure 6)&lt;/h3&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.xiami.com/widget/player-single?uid=32329501&amp;amp;sid=1776238762&amp;amp;mode=js&quot;&gt;&lt;/script&gt;
+
+</content>
+   </entry>
+   
+
+</feed>
+
+
+</body>
+</html>

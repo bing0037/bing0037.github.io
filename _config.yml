@@ -1,0 +1,24 @@
+# auto: true
+
+markdown: kramdown
+highlighter: rouge
+paginate: 8
+permalink: /:title
+encoding: UTF-8
+gems: [jekyll-paginate]
+
+title: Bingbing Li Blog
+url: http://bing0037.github.io
+feed: /atom.xml
+author_info: <a href="http://bing0037.github.io/">bing0037</a>
+
+myblog:
+  gavatar: images/self_picture.png
+  gpname: Bingbing Li
+  linkedin: https://www.linkedin.com/in/bingbing-li-092511104/
+  github: https://github.com/bing0037
+  email: mailto:libingbing@sia.cn
+  coverimgs: []
+  postbgimg: []
+
+categories: [study, books, competition, research]

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Smart Cane for Assistive Navigation (SCAN) to Help Blind Persons | Bingbing Li Blog</title>
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="/css/default.css" type="text/css" />
+  <link rel="stylesheet" href="/css/desktop.css" type="text/css" />
+  <link rel="stylesheet" href="/css/mobile.css" type="text/css" />
+  <link rel="shortcut icon" href="/css/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/css/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+  <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/atom.xml" />
+  <script src="/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="/js/jquery-migrate-1.2.1.js" type="text/javascript"></script>
+  <script src="/js/jquery.transit.min.js" type="text/javascript"></script>
+  <script src="/js/common.js" type="text/javascript"></script>
+
+<body>
+  <link rel="stylesheet" href="/js/prettify/prettify.css" />
+<style type="text/css">
+  html {
+    background: #333333;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  @media screen and (max-width: 750px){
+    body { background: rgba(255, 255, 255, 0.9); }
+  }
+</style>
+
+<div id="content" class="post" style="margin-top: 20px;">
+  <div id="avatar" class="avatar circle" data-in-right="false" style="width: 150px; height: 150px; position: fixed; top: 40px; z-index: 99; opacity: 0;">
+    <div class="center" style="margin-top: 4px; height: 142px; width: 142px; border-radius: 71px; background-image: url('../images//self_picture.png');background-size: contain;             
+                    background-repeat: no-repeat;
+                    background-position:76% 32%;"></div>
+  </div>
+
+  <div class="entry" style="position: relative;">
+    <h1 class="entry-title"><a href="/PPUAV.1" title="Smart Cane for Assistive Navigation (SCAN) to Help Blind Persons">Smart Cane for Assistive Navigation (SCAN) to Help Blind Persons</a></h1>
+
+    <p class="entry-date">2018-06-15 
+        <span class="lastModified" style="display: none;" data-source="_posts/competition/2018-06-15-PPUAV.1.md">最后更新时间: 
+        </span>
+    </p>
+
+
+    <h2 id="system-introduction">1 System Introduction</h2>
+<p>Smart Cane for Assistive Navigation (SCAN) to Help Blind Persons aims to provide indoor assistive navigation for for the Blind &amp; Visually Impaired (BVI).</p>
+
+<p>Indoor assistive navigation system has been researched extensively in recent years with the fast evolution of mobile technologies, from applying robotics simultaneous localization and mapping (SLAM) approach, deploying infrastructure sensors to integrating GIS indoor map databases.</p>
+
+<p>Indoor semantic map database is built to model the environment spatial context-aware information based on Google Tango visual positioning service (VPS), then a TinyYOLO (You-only-look-once) convolutional neural network (CNN) model is applied on the Tango Android phone for real-time moving person recognition and tracking. 
+<img src="images/ISANA_system_structure.jpg" alt="" /></p>
+
+<p><code class="highlighter-rouge">PPUAV</code> consists of parafoil canopy, payload, suspension lines and GN&amp;C system. For the parafoil, deployment of the right (or left) brake causes a significant drag rise and a small lift rise on the right (or left) side of the canopy. And the above effects cause PPUAV to turn right with slight roll movement when a right (or left) brake is deployed. With an engine installed on the back of the payload, PPUAV can adjust its forward and vertical velocities.
+<img src="images/PPUAV_Structure.png" alt="drawing" width="500px" />
+<img src="images/control_mechanism.PNG" alt="" />
+<img src="images/PPUAV_platform.jpg" alt="" /></p>
+
+<h2 id="px4-firmware-for-ppuav">2 PX4 Firmware for PPUAV</h2>
+<p>Project link: <a href="https://github.com/SIA-PPG">https://github.com/SIA-PPG</a></p>
+
+<p>PPUAV is not supported officially by PX4, so customized <a href="https://dev.px4.io/en/concept/mixing.html">Mixer</a> for PPUAV is needed.
+<img src="images/PX4_Mixer.png" alt="" /></p>
+
+<p><a href="https://github.com/SIA-PPG/PX4_PPG/blob/ppg_controller/ROMFS/px4fmu_common/mixers/hexa_x.main.mix">PPUAV mixer</a></p>
+
+<h2 id="controller-energy-based-controller">3 Controller: Energy-based Controller</h2>
+<p><img src="images/energy-based_controller.PNG" alt="" /></p>
+
+<h2 id="additional-sensors-for-environment-monitoring">4 Additional Sensors for Environment Monitoring</h2>
+<p><img src="images/sensors.png" alt="drawing" width="500px" />
+<img src="images/sensors_outputs.jpg" alt="" /></p>
+
+<h2 id="video">5 Video</h2>
+<p>flight test: <a href="https://youtu.be/j9KC4hOyxOY">Youtube</a></p>
+
+
+
+  </div>
+
+
+  <div id="menuIndex" class="sidenav">
+    <div class="myinfo"><center>
+      <div id="avatarHolder" class="avatar circle" style="width: 0px; height: 0px; box-shadow: none; margin-bottom: 20px;"></div>
+      <a href="/index.html" title="Homepage"><i class="icon-home icon-large"></i> Home</a>
+      <a href="https://www.linkedin.com/in/bingbing-li-092511104/"><i class="icon-linkedin-sign icon-large"></i> Profile</a>
+      <a href="https://github.com/bing0037"><i class="icon-github icon-large"></i> Code</a>
+      <a href="mailto:libingbing@sia.cn"><i class="icon-envelope icon-large"></i> Mail</a>
+    </center></div>
+    <div id="menu"></div>
+  </div>
+</div>
+
+<script src="/js/post.js" type="text/javascript"></script>
+
+</body>
+</html>

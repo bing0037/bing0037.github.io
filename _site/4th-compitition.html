@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>4th International UAV Innovation Grand Prix | Bingbing Li Blog</title>
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="/css/default.css" type="text/css" />
+  <link rel="stylesheet" href="/css/desktop.css" type="text/css" />
+  <link rel="stylesheet" href="/css/mobile.css" type="text/css" />
+  <link rel="shortcut icon" href="/css/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/css/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+  <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/atom.xml" />
+  <script src="/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="/js/jquery-migrate-1.2.1.js" type="text/javascript"></script>
+  <script src="/js/jquery.transit.min.js" type="text/javascript"></script>
+  <script src="/js/common.js" type="text/javascript"></script>
+
+<body>
+  <link rel="stylesheet" href="/js/prettify/prettify.css" />
+<style type="text/css">
+  html {
+    background: #333333;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  @media screen and (max-width: 750px){
+    body { background: rgba(255, 255, 255, 0.9); }
+  }
+</style>
+
+<div id="content" class="post" style="margin-top: 20px;">
+  <div id="avatar" class="avatar circle" data-in-right="false" style="width: 150px; height: 150px; position: fixed; top: 40px; z-index: 99; opacity: 0;">
+    <div class="center" style="margin-top: 4px; height: 142px; width: 142px; border-radius: 71px; background-image: url('../images//self_picture.png');background-size: contain;             
+                    background-repeat: no-repeat;
+                    background-position:76% 32%;"></div>
+  </div>
+
+  <div class="entry" style="position: relative;">
+    <h1 class="entry-title"><a href="/4th-compitition" title="4th International UAV Innovation Grand Prix">4th International UAV Innovation Grand Prix</a></h1>
+
+    <p class="entry-date">2016-11-05 
+        <span class="lastModified" style="display: none;" data-source="_posts/competition/2016-11-5-4th-compitition.md">最后更新时间: 
+        </span>
+    </p>
+
+
+    <h2 id="competition-description">1 Competition Description</h2>
+<p><a href="http://www.uavgp.com.cn/En/">4th International Unmanned Aerial Vehicle(UAV) Innovation Grand Prix (UAVGP)</a> was sponsored by <a href="http://www.goertek.com/en/index.html">Goertek Inc.</a> and <a href="http://www.avic.com/en/index.shtml">Aviation
+Industry Corporation of China (AVIC)</a>.</p>
+
+<p><strong>Github</strong>: <a href="https://github.com/SIA-UAVGP">SIA-UAVGP</a></p>
+
+<p>In <strong>rotary-wing UAV(JX) group</strong>, the competition is designed as a “<strong>Precision Agriculture</strong>” 
+scenario –– Fruit trees in a farm are suffering from pests and disease, and the various pests have different resistances against particular pesticides. Agriculture and
+forestry experts will send rotary-wing UAVs to successfully eradicate all the pests by screening
+for effective pesticide type and spraying targeted pests.
+<img src="images/uavgp2016_rule.png" alt="" />
+<img src="images/uavgp2016.jpg" alt="" /></p>
+
+<p>“Precision Agriculture” examines precise and efficient operation of a rotary-wing UAV in
+autonomous takeoff and landing, obstruction avoidance, crop disaster identification, automatic
+program operation, pesticide replenishment and spray.</p>
+
+<h2 id="system-structure">2 System Structure</h2>
+<p>The drone, called <code class="highlighter-rouge">SIA Sparrowhawk</code>, is created using <a href="https://www.dji.com/spreading-wings-s1000">DJI Spreading Wings S1000+ Octocopter</a> as the basic platform, <a href="http://pixhawk.org/">pixhawk</a> as the controller of the drone and <a href="https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html">Intel NUC</a> as the companion computer to deal with Computer Vision problems and send position and velocity commands.</p>
+
+<p>The <a href="https://dev.px4.io/en/ros/mavros_installation.html">MAVROS</a> package enables MAVLink extendable communication between the companion computer (<strong>Intel NUC</strong>) running ROS and MAVLink enabled autopilots (<strong>pixhawk</strong>).</p>
+
+<p><img src="images/uavgp2016_system_structure_hardware.PNG" alt="" />
+<img src="images/uavgp2016_system_structure_software.PNG" alt="" /></p>
+
+<h2 id="px4-controller-structure">3 PX4 Controller Structure</h2>
+<p><img src="images/uavgp2016_PX4_structure.PNG" alt="" /></p>
+
+<p><img src="images/uavgp2016_Project_structure.PNG.PNG" alt="" /></p>
+
+<h2 id="competition-result">4 Competition Result</h2>
+<p>My group won the <strong>first prize</strong>.
+<img src="images/uavgp2016_score.jpg" alt="" /></p>
+
+<h2 id="videos">5 Videos</h2>
+
+<p><a href="http://v.youku.com/v_show/id_XMzIwNzgyNTU4NA==.html?spm=a2h3j.8428770.3416059.1#paction">Preliminary</a></p>
+<embed src="http://player.youku.com/player.php/sid/XMzIwNzgyNTU4NA==/v.swf" quality="low" width="498" height="510" align="middle" allowscriptaccess="always" allowfullscreen="true" mode="transparent" type="application/x-shockwave-flash" />
+
+<p><a href="http://v.youku.com/v_show/id_XMzIwNzgzODQ5Mg==.html?spm=a2h3j.8428770.3416059.1">Final</a></p>
+<embed src="http://player.youku.com/player.php/sid/XMzIwNzgzODQ5Mg==/v.swf" quality="low" width="498" height="510" align="middle" allowscriptaccess="always" allowfullscreen="true" mode="transparent" type="application/x-shockwave-flash" />
+
+
+
+
+  </div>
+
+
+  <div id="menuIndex" class="sidenav">
+    <div class="myinfo"><center>
+      <div id="avatarHolder" class="avatar circle" style="width: 0px; height: 0px; box-shadow: none; margin-bottom: 20px;"></div>
+      <a href="/index.html" title="Homepage"><i class="icon-home icon-large"></i> Home</a>
+      <a href="https://www.linkedin.com/in/bingbing-li-092511104/"><i class="icon-linkedin-sign icon-large"></i> Profile</a>
+      <a href="https://github.com/bing0037"><i class="icon-github icon-large"></i> Code</a>
+      <a href="mailto:libingbing@sia.cn"><i class="icon-envelope icon-large"></i> Mail</a>
+    </center></div>
+    <div id="menu"></div>
+  </div>
+</div>
+
+<script src="/js/post.js" type="text/javascript"></script>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Smart Cane for Assistive Navigation (SCAN) to Help Blind Persons | Bingbing Li Blog</title>
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="/css/default.css" type="text/css" />
+  <link rel="stylesheet" href="/css/desktop.css" type="text/css" />
+  <link rel="stylesheet" href="/css/mobile.css" type="text/css" />
+  <link rel="shortcut icon" href="/css/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/css/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
+  <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/atom.xml" />
+  <script src="/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="/js/jquery-migrate-1.2.1.js" type="text/javascript"></script>
+  <script src="/js/jquery.transit.min.js" type="text/javascript"></script>
+  <script src="/js/common.js" type="text/javascript"></script>
+
+<body>
+  <link rel="stylesheet" href="/js/prettify/prettify.css" />
+<style type="text/css">
+  html {
+    background: #333333;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  @media screen and (max-width: 750px){
+    body { background: rgba(255, 255, 255, 0.9); }
+  }
+</style>
+
+<div id="content" class="post" style="margin-top: 20px;">
+  <div id="avatar" class="avatar circle" data-in-right="false" style="width: 150px; height: 150px; position: fixed; top: 40px; z-index: 99; opacity: 0;">
+    <div class="center" style="margin-top: 4px; height: 142px; width: 142px; border-radius: 71px; background-image: url('../images//self_picture.png');background-size: contain;             
+                    background-repeat: no-repeat;
+                    background-position:76% 32%;"></div>
+  </div>
+
+  <div class="entry" style="position: relative;">
+    <h1 class="entry-title"><a href="/SCAN" title="Smart Cane for Assistive Navigation (SCAN) to Help Blind Persons">Smart Cane for Assistive Navigation (SCAN) to Help Blind Persons</a></h1>
+
+    <p class="entry-date">2018-06-15 
+        <span class="lastModified" style="display: none;" data-source="_posts/competition/2018-06-15-SCAN.md">最后更新时间: 
+        </span>
+    </p>
+
+
+    <h2 id="system-introduction">1 System Introduction</h2>
+<p><code class="highlighter-rouge">Smart Cane for Assistive Navigation (SCAN)</code> is designed by <a href="https://ccny-ros-pkg.github.io/">CCNY Robotics Lab</a> to provide indoor assistive navigation for the Blind &amp; Visually Impaired (BVI).</p>
+
+<p>Indoor assistive navigation system has been researched extensively in recent years with the fast evolution of mobile technologies, from applying robotics simultaneous localization and mapping (SLAM) approach, deploying infrastructure sensors to integrating semantic environment description.</p>
+
+<p><code class="highlighter-rouge">SCAN</code> software is designed to provide the environment spatial context-aware information and guidance suggestions.
+<img src="images/ISANA_system_structure.jpg" alt="" /></p>
+
+<p>In addition, a <code class="highlighter-rouge">TinyYOLO</code> (You-only-look-once) convolutional neural network (CNN) model is applied for real-time moving person detection.</p>
+
+<h2 id="hardware-and-software-support">2 Hardware and Software Support</h2>
+<p><code class="highlighter-rouge">SCAN</code> software runs on the LENOVO Phab-2 Pro, the first <code class="highlighter-rouge">Tango-enabled smartphone</code>. The sensors embedded in the Tango-enabled smartphone include: an RGB-D camera providing both image and depth information, a wide-angle fisheye camera for motion tracking, a IMU for visual-inertial odometry augmentation, microphone and audio output for sonic and verbal feedback.
+<img src="images/AssistiveNav.png" alt="" /></p>
+
+<p><code class="highlighter-rouge">Google Tango</code>’s <code class="highlighter-rouge">visual position service (VPS)</code> supports visual odometry and area description file (ADF) for loop-closure in SLAM. The ADF stores the visual key-frame features that are used for the feature matching. The loop-closure provides re-localization capability to correct drift errors accumulated from visual odometry. Tango explorer and Tango Area Manager are tools to access ADF.
+<img src="images/Tango_Explorer.png" alt="" /></p>
+
+<h2 id="functions-of-scan">3 Functions of SCAN</h2>
+
+<h3 id="online-alignment">Online-alignment</h3>
+<p>To align semantic map with ADF, we need set the scaling and offset parameters using online alignment.</p>
+
+<h3 id="high-level-semantic-localization-and-navigation">High-level Semantic Localization and navigation</h3>
+<p><img src="images/ISANA_navigation.png" alt="" /></p>
+
+<h3 id="detection">Detection</h3>
+<p><img src="images/ISANA_face_detection.jpg" alt="" />
+<img src="images/ISANA_face_detection2.jpg" alt="" /></p>
+
+<h2 id="auxiliary-equipment-smartcane-to-select-the-destination">4 Auxiliary Equipment: SmartCane to Select the Destination</h2>
+<p><img src="images/smartcane_selection.jpg" alt="" /></p>
+
+<h2 id="video">5 Video</h2>
+<p><a href="https://youtu.be/xi0dbnjKN7c">Youtube</a></p>
+
+
+
+  </div>
+
+
+  <div id="menuIndex" class="sidenav">
+    <div class="myinfo"><center>
+      <div id="avatarHolder" class="avatar circle" style="width: 0px; height: 0px; box-shadow: none; margin-bottom: 20px;"></div>
+      <a href="/index.html" title="Homepage"><i class="icon-home icon-large"></i> Home</a>
+      <a href="https://www.linkedin.com/in/bingbing-li-092511104/"><i class="icon-linkedin-sign icon-large"></i> Profile</a>
+      <a href="https://github.com/bing0037"><i class="icon-github icon-large"></i> Code</a>
+      <a href="mailto:libingbing@sia.cn"><i class="icon-envelope icon-large"></i> Mail</a>
+    </center></div>
+    <div id="menu"></div>
+  </div>
+</div>
+
+<script src="/js/post.js" type="text/javascript"></script>
+
+</body>
+</html>
