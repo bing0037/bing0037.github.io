@@ -74,9 +74,8 @@ Ministry of Education, China, 2010
 - *2019.09 - 2021.07*, Ph.D, [Department of Computer Science & Engineering](https://computing.engineering.uconn.edu/) at the [University of Connecticut](https://uconn.edu/), CT, USA
 - *2013.09 - 2019.07*, Ph.D, Major in Pattern Recognition and Intelligent System, [Shenyang Institute of Automation](http://www.sia.cas.cn/), [Chinese Academy of Sciences](https://english.ucas.ac.cn/)
 - *2018.02 - 2019.02*, Visiting Scholar, [CCNY Robotics Lab](https://ccny-ros-pkg.github.io/), [The City College of New York](https://www.ccny.cuny.edu/), New York City, USA
-- *2013.09 - 2014.07*, Visiting Student, Department of Automation, School of Information Science and Technology, [University of Science and Technology of China(USTC)](https://en.ustc.edu.cn//), Hefei, China.
-2014
-- *2009.09 - 2013.06*, B.S., Major in Intelligence Science and Technology, School of Electronic Engineering, [Xidian University](https://en.xidian.edu.cn/), Xi’an, China
+- *2013.09 - 2014.07*, Visiting Student, Department of Automation, School of Information Science and Technology, [University of Science and Technology of China(USTC)](https://en.ustc.edu.cn//), Hefei, China
+- *2009.09 - 2013.07*, B.S., Major in Intelligence Science and Technology, School of Electronic Engineering, [Xidian University](https://en.xidian.edu.cn/), Xi’an, China
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
