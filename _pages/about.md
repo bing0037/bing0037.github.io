@@ -59,14 +59,14 @@ hosted by [Aviation Industry Corporation of China(AVIC)](https://www.avic.com/en
 
   **Bingbing Li (Team Leader)**, Xiangdong Meng, Zhong Liu, Bo Dai, Bin Xiao, Lilong Huang
 
-  **First Prize (First Place)** with 30k$ (200k￥ RMB) award.
+  **First Prize (First Place)** with ￥200K RMB ($32K USD) award.
 
 - <font color=magenta>3-th International UAV Innovation Grand Prix</font>
 hosted by [Aviation Industry Corporation of China(AVIC)](https://www.avic.com/en/index.shtml), Oct. 2015
 
   Jun Jiang(Team Leader), **Bingbing Li**, Yu Zhou, Xiangdong Meng and Xiaoguang Zhao
 
-  **Second Prize (Third Place)** with 10k$ (60k￥ RMB) award.
+  **Second Prize (Third Place)** with ￥60K RMB ($10K USD) award.
 
 - <font color=magenta>National Scholarship</font>
 Ministry of Education, China, 2010
