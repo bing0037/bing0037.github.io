@@ -25,7 +25,7 @@ I obtained my Ph.D. degree from [Shenyang Institute of Automation](http://www.si
 
 My research interest includes DNN Acceleration (model pruning, quantization, knowledge distillation, etc.), LLM infra (distributed training, 3D parallelization, sparse training, etc.), LLM application (Agent, RAG, MCP, etc.), 3D synthesis (3DGS, NeRF, etc.), and Robotics (Embodied AI, Simulation, etc.).
 
-&#x1F4E2; <font color=magenta>We Are Hiring! If you are interested in joining our team, please feel free to contact me.</font>
+&#x1F4E2; <font color=magenta>We Are Hiring (实习生、算法工程师等)! If you are interested in joining our team, please feel free to contact me.</font>
 
 # 🔥 News
 - *2025.04*: &nbsp;🎉🎉 I joined FiveAges (中科第五纪) as the AI technical director (AI技术总监).
