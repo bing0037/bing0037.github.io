@@ -28,7 +28,7 @@ My research interest includes DNN Acceleration (model pruning, quantization, kno
 
 # 🔥 News
 - *2025.04*: &nbsp;🎉🎉 I joined FiveAges (中科第五纪) as the AI technical director (AI技术总监).
-
+<!-- 
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
@@ -43,7 +43,7 @@ My research interest includes DNN Acceleration (model pruning, quantization, kno
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
 
@@ -72,9 +72,9 @@ My research interest includes DNN Acceleration (model pruning, quantization, kno
 2014
 - *2009.09 - 2013.06*, B.S., Major in Intelligence Science and Technology, School of Electronic Engineering, [Xidian University](https://en.xidian.edu.cn/), Xi’an, China
 
-# 💬 Invited Talks
+<!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
 - *2020.07 - 2020.09*, [Kuaishou](https://www.kuaishou.com/en), Palo Alto, USA.
