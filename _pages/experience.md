@@ -1,5 +1,8 @@
 ---
 title: "experience"
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 <span class='anchor' id='experience-me'></span>
