@@ -4,8 +4,8 @@ title: ""
 excerpt: ""
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  - /experience/
+  - /experience.html
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
@@ -15,7 +15,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+<span class='anchor' id='experience-me'></span>
 
 I have been the AI technical director (AI技术总监) at FiveAges (中科第五纪). 
 
