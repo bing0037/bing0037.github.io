@@ -51,19 +51,22 @@ My research interest includes DNN Acceleration (model pruning, quantization, kno
 
 - General Electric (GE) Fellowship of Excellence, 2021
 - General Electric (GE) Fellowship of Excellence, 2020
-- <font color=magenta>4-th International UAV Innovation Grand Prix</font>, hosted by [Aviation Industry Corporation of China(AVIC)](https://www.avic.com/en/index.shtml), Oct. 2016
+- <font color=magenta>4-th International UAV Innovation Grand Prix</font>
+hosted by [Aviation Industry Corporation of China(AVIC)](https://www.avic.com/en/index.shtml), Oct. 2016
 
   **Bingbing Li (Team Leader)**, Xiangdong Meng, Zhong Liu, Bo Dai, Bin Xiao, Lilong Huang
 
   First Prize (First Place) with 30k$ (200k￥ RMB) award.
 
-- <font color=magenta>3-th International UAV Innovation Grand Prix</font>, hosted by [Aviation Industry Corporation of China(AVIC)](https://www.avic.com/en/index.shtml), Oct. 2015
+- <font color=magenta>3-th International UAV Innovation Grand Prix</font>
+hosted by [Aviation Industry Corporation of China(AVIC)](https://www.avic.com/en/index.shtml), Oct. 2015
 
   Jun Jiang(Team Leader), **Bingbing Li**, Yu Zhou, Xiangdong Meng and Xiaoguang Zhao
 
   Second Prize (Third Place) with 10k$ (60k￥ RMB) award.
 
-- <font color=magenta>National Scholarship</font>, Ministry of Education, China, 2010
+- <font color=magenta>National Scholarship</font>
+Ministry of Education, China, 2010
 
 
 # 📖 Educations
