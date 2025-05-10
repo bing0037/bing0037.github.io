@@ -17,17 +17,9 @@ redirect_from:
 
 <span class='anchor' id='experience-me'></span>
 
-I have been the AI technical director (AI技术总监) at FiveAges (中科第五纪). 
-
-Previously, I was a Researcher at the [State Key Laboratory of high efficiency servers and storage technology (高效能服务器和存储技术国家重点实验室)](https://www.most.gov.cn/kjbgz/201407/t20140708_114137.html) at Inspur Group Co., Ltd.（浪潮集团有限公司) from 2022 to 2025. 
-
-I obtained my Ph.D. degree from [Shenyang Institute of Automation](http://www.sia.cas.cn/), [Chinese Academy of Sciences](https://english.ucas.ac.cn/) (中国科学院大学) in Aug. 2019, advised by [Prof. Juntong Qi](https://seea.tju.edu.cn/info/1013/1584.htm) and [Prof. Jianda Han](https://ai.nankai.edu.cn/info/1033/2796.htm). From Sep. 2019 to June 2021, I worked as a Research Assistant in the [Department of Computer Science & Engineering](https://computing.engineering.uconn.edu/) at the [University of Connecticut](https://uconn.edu/), CT, USA, advised by [Prof. Caiwen Ding](https://caiwending.github.io/web/home.html). From July 2021 to Jan. 2022, I worked in the Storage Research Group, Department of Computer Science and Technology at [Tsinghua University](https://www.tsinghua.edu.cn/en/) with [Prof. Youyou Lu](https://storage.cs.tsinghua.edu.cn/~lu/). I obtained B.E degree from [School of Electronic Engineering](https://ensee.xidian.edu.cn/index.html), [Xidian University](https://en.xidian.edu.cn/), China, in Jul. 2013.
-
-My research interest includes DNN Acceleration (model pruning, quantization, knowledge distillation, etc.), LLM infra (distributed training, 3D parallelization, sparse training, etc.), LLM application (Agent, RAG, MCP, etc.), 3D synthesis (3DGS, NeRF, etc.), and Robotics (Embodied AI, Simulation, etc.).
+This is the experience page！！！
 
 
-# 🔥 News
-- *2025.04*: &nbsp;🎉🎉 I joined FiveAges (中科第五纪) as the AI technical director (AI技术总监).
 
 # 📝 Publications 
 
