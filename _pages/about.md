@@ -28,6 +28,8 @@ My research interest includes DNN Acceleration (model pruning, quantization, kno
 
 # 🔥 News
 - *2025.04*: &nbsp;🎉🎉 I joined FiveAges (中科第五纪) as the AI technical director (AI技术总监).
+- *2025.03*: &nbsp;🎉🎉 FiveAges secured tens of millions of CNY in a Seed+ funding round led by Tongchuang Weiye Capital to accelerate breakthroughs in ​​embodied intelligence​​ and ​​multi-modal AI models (「中科第五纪」完成数千万元种子+轮融资)​​.
+
 <!-- 
 # 📝 Publications 
 
