@@ -18,14 +18,13 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I have been the AI technical director (AI技术总监) at FiveAges (中科第五纪). 
-Previously, I was a Researcher at the State Key Laboratory of high efficiency servers and storage technology (高效能服务器和存储技术国家重点实验室（浪潮集团有限公司) from 2022 to 2025. I obtained my Ph.D. degree from Shenyang Institute of Automation, Chinese Academy of Sciences, China in Aug. 2019. From Sep. 2019 to June 2021, I worked as a Research Assistant at the University of Connecticut, CT, USA. From July 2021 to Jan. 2022, I worked in the Storage Research Group, Department of Computer Science and Technology at Tsinghua University with Prof. Youyou Lu. I obtained B.E degree from School of Electronic Engineering, Xidian University, China, in Jul. 2013.
+Previously, I was a Researcher at the [State Key Laboratory of high efficiency servers and storage technology (高效能服务器和存储技术国家重点实验室)](https://www.most.gov.cn/kjbgz/201407/t20140708_114137.html) at Inspur Group Co., Ltd.（浪潮集团有限公司) from 2022 to 2025. I obtained my Ph.D. degree from [Shenyang Institute of Automation](http://www.sia.cas.cn/), Chinese Academy of Sciences, China in Aug. 2019. From Sep. 2019 to June 2021, I worked as a Research Assistant in the [Department of Computer Science & Engineering](https://computing.engineering.uconn.edu/) at the [University of Connecticut](https://uconn.edu/), CT, USA. From July 2021 to Jan. 2022, I worked in the Storage Research Group, Department of Computer Science and Technology at [Tsinghua University](https://www.tsinghua.edu.cn/en/) with [Prof. Youyou Lu](https://storage.cs.tsinghua.edu.cn/~lu/). I obtained B.E degree from [School of Electronic Engineering](https://ensee.xidian.edu.cn/index.html), [Xidian University](https://en.xidian.edu.cn/), China, in Jul. 2013.
 
 My research interest includes DNN Acceleration (model pruning, quantization, knowledge distillation, etc.), LLM infra (distributed training, 3D parallelization, sparse training, etc.), LLM application (Agent, RAG, MCP, etc.), 3D synthesis (3DGS, NeRF, etc.), and Robotics (Embodied AI, Simulation, etc.).
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.04*: &nbsp;🎉🎉 I joined FiveAges (中科第五纪) as the AI technical director (AI技术总监).
 
 # 📝 Publications 
 
@@ -49,11 +48,11 @@ My research interest includes DNN Acceleration (model pruning, quantization, kno
 
 # 📖 Educations
 - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2009.09 - 2013.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2020.07 - 2020.09*, [Kuaishou](https://www.kuaishou.com/en), Palo Alto, USA.
