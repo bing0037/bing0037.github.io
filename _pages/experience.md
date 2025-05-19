@@ -2,7 +2,7 @@
 permalink: /experience
 title: ""
 author_profile: false
-layout: true
+layout: compress
 ---
 
 
