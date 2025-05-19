@@ -1,62 +1,51 @@
 ---
-title: "experience"
-redirect_from: 
-  - /about/
-  - /about.html
+permalink: /experience
+title: ""
+author_profile: false
+layout: false
 ---
-
-<span class='anchor' id='experience-me'></span>
-
-This is the experience page！！！
-
 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
-# 🎖 Honors and Awards
-
-- General Electric (GE) Fellowship of Excellence, 2021
-- General Electric (GE) Fellowship of Excellence, 2020
-- <font color=magenta>4-th International UAV Innovation Grand Prix</font>, hosted by [Aviation Industry Corporation of China(AVIC)](https://www.avic.com/en/index.shtml), Oct. 2016
-
-  **Bingbing Li (Team Leader)**, Xiangdong Meng, Zhong Liu, Bo Dai, Bin Xiao, Lilong Huang
-
-  First Prize (First Place) with 30k$ (200k￥ RMB) award.
-
-- <font color=magenta>3-th International UAV Innovation Grand Prix</font>, hosted by [Aviation Industry Corporation of China(AVIC)](https://www.avic.com/en/index.shtml), Oct. 2015
-
-  Jun Jiang(Team Leader), **Bingbing Li**, Yu Zhou, Xiangdong Meng and Xiaoguang Zhao
-
-  Second Prize (Third Place) with 10k$ (60k￥ RMB) award.
-
-- <font color=magenta>National Scholarship</font>, Ministry of Education, China, 2010
+![](../images/favicon-16x16.png)
 
 
-# 📖 Educations
-- *2019.09 - 2021.07*, Ph.D, [Department of Computer Science & Engineering](https://computing.engineering.uconn.edu/) at the [University of Connecticut](https://uconn.edu/), CT, USA
-- *2013.09 - 2019.07*, Ph.D, Major in Pattern Recognition and Intelligent System, [Shenyang Institute of Automation](http://www.sia.cas.cn/), [Chinese Academy of Sciences](https://english.ucas.ac.cn/)
-- *2018.02 - 2019.02*, Visiting Scholar, [CCNY Robotics Lab](https://ccny-ros-pkg.github.io/), [The City College of New York](https://www.ccny.cuny.edu/), USA
-- *2013.09 - 2014.07*, Visiting Student, Department of Automation, School of Information Science and Technology, [University of Science and Technology of China(USTC)](https://en.ustc.edu.cn//), Hefei, China.
-2014
-- *2009.09 - 2013.06*, B.S., Major in Intelligence Science and Technology, School of Electronic Engineering, [Xidian University](https://en.xidian.edu.cn/), Xi’an, China
+## Competition description
+[3rd International Unmanned Aerial Vehicle(UAV) Innovation Grand Prix (UAVGP)](http://www.uavgp.com.cn/En/) was sponsored by [Aviation
+Industry Corporation of China (AVIC)](http://www.avic.com/en/index.shtml). 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+In rotary-wing UAV(JX) group, an autonomous barrel
+transportation mission was proposed for Rotary-wing UAV
+(RUAV) which aims at validating the feasibility of vertical
+replenishment by UAV. 
 
-# 💻 Internships
-- *2020.07 - 2020.09*, [Kuaishou](https://www.kuaishou.com/en), Palo Alto, USA.
+The RUAV was required to autonomously takeoff, track the barrels on the supplier platform, pick-up the
+barrels, stack the barrels on the replenishment platform and
+then land at the same place where it took off. The supplier
+and replenish platform were in uniform motion with a speed
+under 2m/s, the weight of the barrels was between 1.5kg to
+2kg and a total of four barrels were required to be picked up
+and stacked. The barrels should be stacked in a circle on the
+replenishment platform with the diameter being 0.5m, and
+the diameter of the barrel was 0.266m. A stacking accuracy
+should be under 0.15m to obtain the full mission score. The
+final score was determined based on the mission completion
+time and the stacking accuracy. A mission completion time
+under 200 seconds was supposed to be perfect.
+![](images/uavgp2015_rule.png)
+
+Firstly, the unmanned aerial vehicle (UAV) is required to identify circle targets and the black and white id
+marker near the circle on one moving platform, then the UAV chosen a target bucket, tracked and transported it to the other
+moving platform, until all 4 buckets are transported from one moving platform to the other. 
+
+![](images/live_show.jpg)
+
+My group won the **second prize**.
+![](images/uavgp2015_prize.jpg)
+
+
+## Video
+
+[Final](http://v.youku.com/v_show/id_XMzIxMTk4ODQ3Mg==.html?spm=a2h3j.8428770.3416059.1#paction)
+<embed src="http://player.youku.com/player.php/sid/XMzIxMTk4ODQ3Mg==/v.swf" quality="low" width="498" height="510" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash">
