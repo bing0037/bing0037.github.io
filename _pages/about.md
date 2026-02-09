@@ -83,5 +83,19 @@ Ministry of Education, China, 2010
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
+
+# 🤖 Robotics Projects
+
+<!-- - 2015.11.03: The 3rh International UAV Competition (第三届中航工业杯无人机大赛): [Web Link](./projects/2015-11-3-3rd-compitition), Anji, China. -->
+- 2016.11.05: The 4th International UAV Competition (第四届中航工业杯无人机大赛), Anji, China. [[Web Link](./projects/2016-11-5-4th-compitition)]
+
+- 2017.12.15: Powered Parafoil UAV (软翼无人机), Shenyang, China. [[Web Link](./projects/2017-12-15-PPUAV)]
+
+- 2018.06.15: Smart Cane Project (智能拐杖), New York, USA. [[Web Link](./projects/2018-06-15-SCAN)]
+
+- 2018.09.12: Deep Reinforcement Learning for UAV Control (无人机强化学习控制), New York, USA. [[Web Link](./projects/2018-09-12-DRL_UAV)]
+
+<!-- - 2018.08.30: Pedestrian Detection (行人检测): [Web Link](./projects/2018-08-30-keras_yolov3), New York, USA. -->
+
 # 💻 Internships
 - *2020.07 - 2020.09*, [Kuaishou](https://www.kuaishou.com/en), Palo Alto, USA.

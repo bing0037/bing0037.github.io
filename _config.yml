@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Li Bingbing"
   avatar           : "images/self_picture.png"
-  bio              : "Intelligence makes life better"
+  bio              : "Intelligence makes life easier"
   location         : "Beijing, China"
   employer         :
   pubmed           : 
@@ -58,6 +58,27 @@ author:
   youtube          : "bingbingli3638"
   wikipedia        :
   weixin           : "bing0037_wx"
+
+
+# Add this to your _config.yml
+projects:
+  - title: "项目A"
+    description: "这是一个简要的项目A描述。"
+    image: "images/project_a.png"
+    url: "/projects/2015-11-3-3rd-compitition"
+  - title: "项目B"
+    description: "这是一个简要的项目B描述。"
+    image: "images/project_b.png"
+    url: "/projects/project_b"
+  - title: "项目C"
+    description: "这是一个简要的项目C描述。"
+    image: "images/project_c.png"
+    url: "/projects/project_c"
+  - title: "项目D"
+    description: "这是一个简要的项目D描述。"
+    image: "images/project_d.png"
+    url: "/projects/project_d"
+
 
 
 # Reading Files
