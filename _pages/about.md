@@ -27,7 +27,7 @@ My research interest includes DNN Acceleration (model pruning, quantization, kno
 
 <div style="text-align: center;">
   <div style="display: inline-block; margin-right: 20px;">
-      <a href="链接"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>
+      <a href="https://github.com/bing0037"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>
   </div>
   <div style="display: inline-block; margin-right: 20px;">
       <a href="https://scholar.google.com/citations?user=JN_6MVEAAAAJ&hl"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a>
