@@ -25,6 +25,19 @@ I obtained my Ph.D. degree from [Shenyang Institute of Automation](http://www.si
 
 My research interest includes DNN Acceleration (model pruning, quantization, knowledge distillation, etc.), LLM infra (distributed training, 3D parallelization, sparse training, etc.), LLM application (Agent, RAG, MCP, etc.), 3D synthesis (3DGS, NeRF, etc.), and Robotics (Embodied AI, Simulation, etc.).
 
+<div style="text-align: center;">
+  <div style="display: inline-block; margin-right: 20px;">
+      <a href="链接"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a>
+  </div>
+  <div style="display: inline-block; margin-right: 20px;">
+      <a href="https://scholar.google.com/citations?user=JN_6MVEAAAAJ&hl"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a>
+  </div>
+  <div style="display: inline-block;">
+      <a href="mailto:bike_travel@163.com"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a>
+  </div>
+</div>
+<br>
+
 &#x1F4E2; <font color=magenta>We Are Hiring (实习生、算法工程师等)! If you are interested in joining our team, please feel free to contact me. </font>
 
 ☕ <font color=magenta>Coffee chat is always available~</font>
@@ -86,12 +99,13 @@ Ministry of Education, China, 2010
 
 # 🤖 Robotics Projects
 
-<!-- - 2015.11.03: The 3rh International UAV Competition (第三届中航工业杯无人机大赛): [Web Link](./projects/2015-11-3-3rd-compitition), Anji, China. -->
-- 2016.11.05: The 4th International UAV Competition (第四届中航工业杯无人机大赛), Anji, China. [[Web Link](./projects/2016-11-5-4th-compitition)]
+- 2015.11.03: The 3rh International UAV Competition (第三届中航工业杯无人机大赛) , Anji, China. [Second Prize (二等奖)]  [[Web Link](./projects/2015-11-3-3rd-compitition)]
+
+- 2016.11.05: The 4th International UAV Competition (第四届中航工业杯无人机大赛), Anji, China. [First Prize (一等奖)]  [[Web Link](./projects/2016-11-5-4th-compitition)]
 
 - 2017.12.15: Powered Parafoil UAV (软翼无人机), Shenyang, China. [[Web Link](./projects/2017-12-15-PPUAV)]
 
-- 2018.06.15: Smart Cane Project (智能拐杖), New York, USA. [[Web Link](./projects/2018-06-15-SCAN)]
+- 2018.06.15: Smart Cane Project (智能拐杖助残疾人导航系统), New York, USA. [[Web Link](./projects/2018-06-15-SCAN)]
 
 - 2018.09.12: Deep Reinforcement Learning for UAV Control (无人机强化学习控制), New York, USA. [[Web Link](./projects/2018-09-12-DRL_UAV)]
 
